@@ -1,0 +1,132 @@
+body {
+  background-color: RGB(31, 35, 46);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  color: coral;
+}
+
+li {
+  color: coral;
+}
+table {
+  color: white;
+  background-color: rgb(45, 45, 46);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  transition: all 0.3s ease-out;
+}
+p {
+  margin: 20px;
+}
+audio {
+  margin: 20px;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulos {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px 0 rgba(107, 96, 83, 0.993);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.image {
+  float: left;
+  max-width: 120px;
+  max-height: 120px;
+}
+.kim {
+  border-left: 10px solid coral;
+}
+
+.shi {
+  border-left: 10px solid coral;
+}
+.one {
+  border-left: 10px solid coral;
+}
+.boru {
+  border-left: 10px solid coral;
+}
+.juju {
+  border-left: 10px solid coral;
+}
+
+.cabeçalhos {
+  color: white;
+  background-color: coral;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  transition: all 0.3s ease-out;
+}
+.estilo {
+  font-size: 20pt;
+  font-family: "Roboto", sans-serif;
+}
+.letra {
+  font-size: 12pt;
+  font-family: "Roboto", sans-serif;
+}
+#trofeu {
+  width: 100px;
+  position: absolute;
+  top: 1000px;
+  left: 320px;
+}
+#luffy {
+  width: 100px;
+  position: absolute;
+  top: 1320px;
+  left: 220px;
+}
+
+#background {
+  width: 100%;
+  height: 400px;
+  background-image: url(../imagens/aa-2.jpg);
+  opacity: 0.6;
+}
+#top {
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 420px;
+}
+#episodios {
+  background-color: coral;
+  color: white;
+  width: 1200px;
+  height: 40px;
+  border-radius: 10px;
+}
+#ep {
+  width: 200px;
+  background-color: coral;
+  color: white;
+  border-radius: 10px;
+}
